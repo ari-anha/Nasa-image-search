@@ -1,29 +1,27 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nasaLogo {
+.search {
   margin: auto;
-  width: 80%;
+  width: 60%;
+  height: 40px;
+  border-radius: 11px;
+  font-size: 20px;
+  padding: 0 10px;
 }
 
 /*media query start*/
 @media screen and (min-width: 410px) {
-  .nasaLogo {
-    width: 70%;
+  .search {
+    width: 53%;
   }
 }
 @media screen and (min-width: 500px) {
-  .nasaLogo {
-    width: 55%;
+  .search {
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .nasaLogo {
-    width: 500px;
+  .search {
+    width: 20%;
   }
 }
 /*media query end*/
