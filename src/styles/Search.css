@@ -1,4 +1,9 @@
-.search {
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchInput {
   margin: auto;
   width: 60%;
   height: 40px;
@@ -6,21 +11,32 @@
   font-size: 20px;
   padding: 0 10px;
 }
+.submitButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
 
 /*media query start*/
 @media screen and (min-width: 410px) {
-  .search {
+  .searchInput {
     width: 53%;
   }
 }
 @media screen and (min-width: 500px) {
-  .search {
+  .searchInput {
     width: 40%;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .search {
+  .searchInput {
     width: 20%;
   }
 }
