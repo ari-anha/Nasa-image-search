@@ -2,14 +2,16 @@
 
 exports[`Search renders correctly 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    class="searchForm"
+  >
     <input
       class="searchInput"
       type="text"
     />
     <button
       class="submitButton"
-      typeof="submit"
+      type="submit"
     >
       <svg
         fill="currentColor"
