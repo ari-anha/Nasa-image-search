@@ -21,7 +21,7 @@ There was no specific rules on the styling, but it would be taken into considera
 
 ## Acknowledgement
 
-This project was the React Developer Mock Tech Test project as part of the Manchester Codes curriculum.
+This project was the React Developer Mock Tech Test project as part of the Manchester Codes (@MCRcodes) curriculum.
 
 ## Finished app
 
@@ -43,19 +43,28 @@ Packages used:
 
 ## How to run the app
 
-Clone the repo.
-npm start.
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repo onto your machine.
+`$ git clone https://github.com/ari-anha/React-tech-test`
+
+Change directories so that you are in the cloned repository.
+`$ cd React-tech-test`
+
+Install npm.
+`$ npm i`
+
+Start npm.
+`$ npm start`
+
+The app should pop up onto your browser.
 
 ## If I had more time...
 
 ### "About" page.
 
-What the app is about.
+I would have a separate page that explains in a bit more detail what the app is about.
 
 ### Image details
 
 Each image will be clickable. Once you click, it would take you to another page, where the original size of the image and its details will be shown.
 
-## Arianha Bayley
+## Created by Arianha Bayley
