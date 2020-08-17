@@ -21,25 +21,25 @@ There was no specific rules on the styling, but it would be taken into considera
 
 ## Acknowledgement
 
-This project was the Mock React Developer Tech Test project as part of the Manchester Codes curriculum.
+This project was the React Developer Mock Tech Test project as part of the Manchester Codes curriculum.
 
 ## Finished app
 
 ![Screenshot of the app on a computer](tech-test-bigscreen.png)
-![Screenshot of the app on a mobile]()
+![Screenshot of the app on a mobile](tech-test-mobile.png)
 
 This app was built using React.
 
 Testing utilities used:
 
-- Jest
-- React Testing Library
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 
 Packages used:
 
-- Axios
-- PropTypes
-- React Icons Library
+- [Axios](https://www.npmjs.com/package/axios)
+- [PropTypes](https://www.npmjs.com/package/prop-types)
+- [React Icons Library](https://react-icons.github.io/react-icons/)
 
 ## How to run the app
 

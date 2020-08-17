@@ -1,11 +1,11 @@
-.searchResults {
-}
-
-h1 {
+h1,
+h2 {
   color: #278aa3;
   font-family: "Archivo", sans-serif;
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .images {
@@ -14,12 +14,13 @@ h1 {
   justify-content: center;
 }
 .nasaImage {
-  padding: 7px;
-  width: 310px;
+  max-width: 100%;
   height: auto;
+  padding: 2px;
 }
 
 /*media query start*/
+
 @media screen and (min-width: 500px) {
   .images {
     display: flex;

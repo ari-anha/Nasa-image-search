@@ -5,7 +5,7 @@ import "../styles/SearchResults.css";
 const SearchResults = ({ results }) => {
   //  return ( { state && state.length > 0 && ( <ComponentOne />) });
   if (!results.length) {
-    return <h1>No matching results</h1>;
+    return <h2>No matching results</h2>;
   } else {
     return (
       <div className="searchResults">
