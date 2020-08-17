@@ -1,0 +1,52 @@
+.searchResults {
+}
+
+h1 {
+  color: #278aa3;
+  font-family: "Archivo", sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nasaImage {
+  padding: 7px;
+  width: 310px;
+  height: auto;
+}
+
+/*media query start*/
+@media screen and (min-width: 500px) {
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+  }
+  .nasaImage {
+    padding: 7px;
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+  }
+  .nasaImage {
+    padding: 15px;
+    height: 100%;
+    width: auto;
+  }
+}
+/*media query end*/

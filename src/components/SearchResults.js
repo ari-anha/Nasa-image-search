@@ -1,20 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../styles/App.css";
-// import Search from "./Search";
+import "../styles/SearchResults.css";
 
 const SearchResults = ({ results }) => {
   //  return ( { state && state.length > 0 && ( <ComponentOne />) });
   if (!results.length) {
-    return <p>No matching results</p>;
+    return <h1>No matching results</h1>;
   } else {
     return (
-      <>
-        <p>Search Results</p>
-        {results.map((result) => (
-          <img className="nasaImages" src={result} alt="nasaImage" />
-        ))}
-      </>
+      <div className="searchResults">
+        <h1>Search Results</h1>
+        <div className="images">
+          {results.map((result) => (
+            <img className="nasaImage" src={result} alt="nasaImage" />
+          ))}
+        </div>
+      </div>
     );
   }
 };

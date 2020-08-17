@@ -5,7 +5,7 @@ import SearchResults from "./SearchResults";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
-  // searchResults.map((e) => console.log(e));
+
   return (
     <div className="App">
       <img
