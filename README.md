@@ -25,8 +25,8 @@ This project was the React Developer Mock Tech Test project as part of the Manch
 
 ## Finished app
 
-![Screenshot of the app on a computer]()
-![Screenshot of the app on a mobile]()
+![Screenshot of the app on a computer](tech-test-computer.png)
+![Screenshot of the app on a mobile](tech-test-mobile.png)
 
 This app was built using React.
 
