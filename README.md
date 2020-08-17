@@ -25,8 +25,8 @@ This project was the React Developer Mock Tech Test project as part of the Manch
 
 ## Finished app
 
-![Screenshot of the app on a computer](tech-test-computer)
-![Screenshot of the app on a mobile](tech-test-mobile.png)
+![Screenshot of the app on a computer]()
+![Screenshot of the app on a mobile]()
 
 This app was built using React.
 
@@ -44,16 +44,28 @@ Packages used:
 ## How to run the app
 
 Clone the repo onto your machine.
-\$ git clone https://github.com/ari-anha/React-tech-test
+
+```
+$ git clone https://github.com/ari-anha/React-tech-test
+```
 
 Change directories so that you are in the cloned repository.
-\$ cd React-tech-test
+
+```
+$ cd React-tech-test
+```
 
 Install npm.
-\$ npm i
+
+```
+$ npm i
+```
 
 Start npm.
-\$ npm start
+
+```
+$ npm start
+```
 
 The app should pop up onto your browser.
 
