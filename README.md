@@ -28,7 +28,7 @@ This project was the React Developer Mock Tech Test project as part of the Manch
 ![Screenshot of the app on a computer](tech-test-computer.png)
 ![Screenshot of the app on a mobile](tech-test-mobile.png)
 
-This app was built using React.
+This app was built using React. The design is fully responsive to adapt to different screen sizes, and the colour-palette was chosen to make the app more friendly to colour-blind users.
 
 Testing utilities used:
 
